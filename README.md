@@ -14,11 +14,13 @@ The skeleton tracker is a great way to capture a user's movement and actions. Th
 1. Kinect Initialization, we initialize and keep an array of all joints in the last seen body. Each joint has one Vector in the array desribing it's 3D location        in camera coordinates.
 2. To get the joint tracking information we grab the NUI_SKELETON_FRAME stream. However, the tracking can get noisy so we incorporate a smoothing function.
 3. Once we have a valid tracked skeleton, then we can just copy all the joint data into our array of joint positions, we also track the joint states of each            individual joint incase the Kinect may not be able to  track all of the joints.
-4. We then use the OpenGL library to render the skeleton lines to connect the        joints.
-5. For future use this project can be used to classify the postures and also also     be used for continuous full body gait tracking.
+4. We then use the OpenGL library to render the skeleton lines to connect the joints.
+5. For future use this project can be used to classify the postures and also also be used for continuous full body gait tracking.
+
 
 
 ![kinect_skeleton_tracking](https://user-images.githubusercontent.com/30382104/59148619-44ff4780-89d9-11e9-8088-08535e0a4fc2.gif)
+
 
 
 ### PREREQUISITES TO BE INSTALLED
