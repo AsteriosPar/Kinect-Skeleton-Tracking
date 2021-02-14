@@ -20,7 +20,7 @@ The skeleton tracker is a great way to capture a user's movement and actions. Th
 
 
 <!--![kinect_skeleton_tracking](https://user-images.githubusercontent.com/30382104/59148619-44ff4780-89d9-11e9-8088-08535e0a4fc2.gif)-->
-<img src="https://user-images.githubusercontent.com/30382104/59148619-44ff4780-89d9-11e9-8088-08535e0a4fc2.gif" width="40%">
+<img src="https://user-images.githubusercontent.com/30382104/59148619-44ff4780-89d9-11e9-8088-08535e0a4fc2.gif" width="60%">
 
 
 ### PREREQUISITES TO BE INSTALLED
